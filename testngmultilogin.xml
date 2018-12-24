@@ -1,0 +1,25 @@
+<suit name="multi check">
+    <Parameter name="id1" value="madhawesh" />
+    <Parameter name="pass1" value="123123" />
+    <test name="multi login">
+        <classes>
+            <class name-"Qaclickacademy_practice.multiplelogin"></class>
+        </classes>
+    </test>
+</suit>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests">
+	 <parameter name="id1" value="madhawesh" />
+    <parameter name="pass1" value="123123" />
+    <test name="multi login">
+        <classes>
+            <class name-"Qaclickacademy_practice.multiplelogin"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

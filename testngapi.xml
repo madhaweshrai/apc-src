@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite">
+	<listeners>
+		<listener class-name="listeners.ITestListener_TNGL"></listener>
+	</listeners>
+
+	<test
+		name="Appice Automation Test cases for Register,Login,Cohort,App Installs/Uninstalls, Inside/Outside App validatios:">
+		<classes>
+			
+         <class name="appICE_Pages.TC_APIvalidation" />  
+         		
+			</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

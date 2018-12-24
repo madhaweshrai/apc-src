@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests">
+	<listeners>
+		<listener class-name="listeners.ITestListener_TNGL"></listener>
+	</listeners>
+
+	<test
+		name="Appice Automation Test cases for Register,Login,Cohort,App Installs/Uninstalls, Inside/Outside App validatios:">
+		<classes>
+
+		     	
+		     	
+         	   <class name="ai_TC_For_AppICEHomePage.AppICEHomePage" /> 
+		 	<!--  <class name="ai_TC_For_AppICEHomePage.AppICERegisterPage" /> 
+		   	<class name="appICE_Pages.AppsDashboard" />
+			<class name="appICE_Pages.TC_AppInstall" />
+			<class name="appICE_Pages.TC_AppUninstall" />
+			<class name="appICE_Pages.OutsideTheAppPage" /> 
+			<class name="appICE_Pages.TC_APIvalidation" />    
+		<class name="appICE_Pages.InsideTheAppPage" />  -->
+					
+		<!--  <class name="appICE_Pages.TC_AudianceSegment" /> 	 -->
+		
+			</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
